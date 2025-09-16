@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.flex-center {
+  @apply flex justify-center items-center;
+}
+
+html {
+  scroll-behavior: smooth;
+}

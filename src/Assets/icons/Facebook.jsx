@@ -1,0 +1,22 @@
+import * as React from "react";
+
+const Facebook = (props) => (
+  <div className="flex h-[40px] w-[40px] items-center justify-center rounded-full bg-[#3B5998] p-2 hover:cursor-pointer">
+    <svg
+      fill="#121212"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+      className="icon flat-color h-8 w-8"
+      {...props}
+    >
+      <path
+        d="M14,6h3a1,1,0,0,0,1-1V3a1,1,0,0,0-1-1H14A5,5,0,0,0,9,7v3H7a1,1,0,0,0-1,1v2a1,1,0,0,0,1,1H9v7a1,1,0,0,0,1,1h2a1,1,0,0,0,1-1V14h2.22a1,1,0,0,0,1-.76l.5-2a1,1,0,0,0-1-1.24H13V7A1,1,0,0,1,14,6Z"
+        style={{
+          fill: "#ffffff",
+        }}
+      />
+    </svg>
+  </div>
+);
+
+export default Facebook;
